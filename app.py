@@ -111,6 +111,7 @@ def format_notification(status: str, extra: str = "", error: str = "", expiry_da
         "🇫🇮 Bot-hosting 续期通知",
         "",
         f"{status}",
+        "🏷️ 账号标识: 1号",  # <--- 在这里添加你的自定义标识，注意末尾的英文逗号
         f"👤 登录账户: {masked_email}",
     ]
     if _LOGIN_METHOD != "SESSION_TOKEN":
